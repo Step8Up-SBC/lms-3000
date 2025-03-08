@@ -17,7 +17,7 @@ Follow these steps to install and set up LMS3000 locally:
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/LMS3000.git
+git clone https://github.com/Step8Up-SBC/lms-3000.git
 cd LMS3000
 ```
 
@@ -64,7 +64,7 @@ The application should now be running locally.
 
 ## Usage
 
-- Open your browser and navigate to `http://localhost:3000` to access the LMS3000 application.
+- Open your browser and navigate to `http://localhost:5187` to access the LMS3000 application.
 - Explore features such as course management, student enrollment, and instructor assignments.
 
 ## Contributing
@@ -74,10 +74,6 @@ Feel free to submit issues and pull requests to improve LMS3000. Contributions a
 ## License
 
 This project is licensed under the **MIT License**.
-
-## Contact
-
-For questions or feedback, reach out to **your_email@example.com** or visit the repository's issues section.
 
 ---
 
