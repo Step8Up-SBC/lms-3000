@@ -1,0 +1,59 @@
+[
+    {
+      "category_name": "Web Development"
+    },
+    {
+      "category_name": "Data Science"
+    },
+    {
+      "category_name": "Cybersecurity"
+    },
+    {
+      "category_name": "Cloud Computing"
+    },
+    {
+      "category_name": "Artificial Intelligence & Machine Learning"
+    },
+    {
+      "category_name": "DevOps & CI/CD"
+    },
+    {
+      "category_name": "Mobile App Development"
+    },
+    {
+      "category_name": "Blockchain & Web3"
+    },
+    {
+      "category_name": "Game Development"
+    },
+    {
+      "category_name": "Programming Fundamentals"
+    },
+    {
+      "category_name": "Database Management & SQL"
+    },
+    {
+      "category_name": "Software Testing & QA"
+    },
+    {
+      "category_name": "Networking & IT Infrastructure"
+    },
+    {
+      "category_name": "Internet of Things (IoT)"
+    },
+    {
+      "category_name": "UI/UX Design"
+    },
+    {
+      "category_name": "Big Data & Analytics"
+    },
+    {
+      "category_name": "AR/VR Development"
+    },
+    {
+      "category_name": "Ethical Hacking"
+    },
+    {
+      "category_name": "Embedded Systems"
+    }
+  ]

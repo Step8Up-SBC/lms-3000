@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Programming",
+    "description": "Learn the basics of programming using Python.",
+    "created_by": "John Doe",
+    "users": [
+      { "id": 1, "username": "alice", "email": "alice@example.com" },
+      { "id": 2, "username": "bob", "email": "bob@example.com" }
+    ],
+    "categoryId": 6
+  },
+  {
+    "id": 2,
+    "title": "Data Structures",
+    "description": "Explore foundational data structures like arrays, linked lists, and trees.",
+    "created_by": "Jane Smith",
+    "users": [
+      { "id": 3, "username": "charlie", "email": "charlie@example.com" },
+      { "id": 4, "username": "dave", "email": "dave@example.com" }
+    ],
+    "categoryId": 5
+  },
+  {
+    "id": 3,
+    "title": "Web Development Basics",
+    "description": "Learn how to build basic websites with HTML, CSS, and JavaScript.",
+    "created_by": "Emily Clark",
+    "users": [
+      { "id": 5, "username": "eve", "email": "eve@example.com" },
+      { "id": 6, "username": "frank", "email": "frank@example.com" }
+    ],
+    "categoryId": 5
+  },
+  {
+    "id": 4,
+    "title": "Advanced JavaScript",
+    "description": "Deep dive into modern JavaScript features and frameworks.",
+    "created_by": "Michael Brown",
+    "users": [
+      { "id": 7, "username": "grace", "email": "grace@example.com" },
+      { "id": 8, "username": "henry", "email": "henry@example.com" }
+    ],
+    "categoryId": 9
+  },
+  {
+    "id": 5,
+    "title": "Database Management",
+    "description": "Learn SQL and how to manage relational databases.",
+    "created_by": "Laura Wilson",
+    "users": [
+      { "id": 9, "username": "isabel", "email": "isabel@example.com" },
+      { "id": 10, "username": "jack", "email": "jack@example.com" }
+    ],
+    "categoryId": 9
+  },
+  {
+    "id": 6,
+    "title": "Machine Learning Basics",
+    "description": "Introduction to machine learning concepts and techniques.",
+    "created_by": "Chris Johnson",
+    "users": [
+      { "id": 11, "username": "karen", "email": "karen@example.com" },
+      { "id": 12, "username": "leo", "email": "leo@example.com" }
+    ],
+    "categoryId": 2
+  },
+  {
+    "id": 7,
+    "title": "Cybersecurity Fundamentals",
+    "description": "Learn how to protect systems and networks from cyber threats.",
+    "created_by": "Sophia Davis",
+    "users": [
+      { "id": 13, "username": "mia", "email": "mia@example.com" },
+      { "id": 14, "username": "nick", "email": "nick@example.com" }
+    ],
+    "categoryId": 1
+  },
+  {
+    "id": 8,
+    "title": "Mobile App Development",
+    "description": "Learn how to build mobile apps using Flutter.",
+    "created_by": "Andrew Martinez",
+    "users": [
+      { "id": 15, "username": "olivia", "email": "olivia@example.com" },
+      { "id": 16, "username": "paul", "email": "paul@example.com" }
+    ],
+    "categoryId": 3
+  },
+  {
+    "id": 9,
+    "title": "Cloud Computing Essentials",
+    "description": "Understand the basics of cloud services and architecture.",
+    "created_by": "Daniel Thomas",
+    "users": [
+      { "id": 17, "username": "quinn", "email": "quinn@example.com" },
+      { "id": 18, "username": "rose", "email": "rose@example.com" }
+    ],
+    "categoryId": 6
+  },
+  {
+    "id": 10,
+    "title": "DevOps Practices",
+    "description": "Learn about CI/CD pipelines and containerization.",
+    "created_by": "Ella Anderson",
+    "users": [
+      { "id": 19, "username": "sam", "email": "sam@example.com" },
+      { "id": 20, "username": "tina", "email": "tina@example.com" }
+    ],
+    "categoryId": 10
+  }
+]
