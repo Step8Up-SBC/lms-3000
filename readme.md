@@ -44,7 +44,11 @@ Run the following command in the root directory to install dependencies for both
 npm install
 ```
 
-### 4. Seed the Database (Optional)
+### 4. Set up Environment Variables
+
+copy .env.example files in the client and server folders, to cerate .env files. In the server folder, change your MySQL password
+
+### 5. Seed the Database (Optional)
 
 If you want to populate the database with sample data, run:
 
@@ -52,7 +56,7 @@ If you want to populate the database with sample data, run:
 npm run seed
 ```
 
-### 5. Start the Application
+### 6. Start the Application
 
 Run the following command to start the development server:
 
@@ -64,8 +68,9 @@ The application should now be running locally.
 
 ## Usage
 
-- Open your browser and navigate to `http://localhost:5187` to access the LMS3000 application.
+- Open your browser and navigate to `http://localhost:5173` to access the LMS3000 application.
 - Explore features such as course management, student enrollment, and instructor assignments.
+- The Sequelize/NodeJS backend can be accessed via `http://localhost:3001`
 
 ## Contributing
 
