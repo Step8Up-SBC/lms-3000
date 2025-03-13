@@ -70,7 +70,7 @@ router.post("/", async (req, res) => {
 });
 
 // UDPATE the User record
-router.put("/:id", async (req, res) => {
+router.put("/:id", authMiddleware, async (req, res) => {
   try {
     const userData = await User.update(req.body, {
       where: {
@@ -116,7 +116,7 @@ router.post("/login", async (req, res) => {
   }
 });
 
-router.post("/logout", (req, res) => {
+router.post("/logout", (_, res) => {
   res.status(204).end();
 });
 
