@@ -32,7 +32,7 @@ mysql -u root -p
 Enter your MySQL password when prompted, then create the database by running:
 
 ```sh
-source db/schema.sql;
+source server/db/schema.sql;
 quit;
 ```
 
