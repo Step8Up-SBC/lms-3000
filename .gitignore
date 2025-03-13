@@ -1,0 +1,47 @@
+/node_modules/
+public/node_modules/
+
+# Logs
+*.log
+logs/
+
+# Dependency directories
+jspm_packages/
+
+# NPM package lock files
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.test
+.env.production
+
+# Build output
+/dist/
+/build/
+
+# IDEs and text editors
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage folder (for testing)
+/coverage/
+
+# Temporary files
+*.swp
+*.swo
+
+# npm-debug.log (npm error log)
+npm-debug.log*
+
+# Yarn integrity file
+.yarn-integrity
+
+# Misc
+.pnp.js
+.pnp.cjs
