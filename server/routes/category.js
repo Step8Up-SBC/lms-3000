@@ -4,8 +4,11 @@ const app = require("express").Router();
 // import the models
 const { Category } = require("../models/index");
 
-// Route to add a new post
-app.post("/", async (req, res) => {
+// import AuthMiddleware
+const { authMiddleware } = require("../utils/auth");
+
+// Route to add a new category
+app.post("/", authMiddleware, async (req, res) => {
   try {
     const { category_name } = req.body;
     const category = await Category.create({ category_name });
@@ -17,7 +20,7 @@ app.post("/", async (req, res) => {
 });
 
 // Route to get all posts
-app.get("/", async (req, res) => {
+app.get("/", authMiddleware, async (_, res) => {
   try {
     console.log("Getting all categories");
     const categories = await Category.findAll();
@@ -28,7 +31,7 @@ app.get("/", async (req, res) => {
   }
 });
 
-app.get("/:id", async (req, res) => {
+app.get("/:id", authMiddleware, async (req, res) => {
   try {
     const category = await Post.findByPk(req.params.id);
     res.json(category);
@@ -38,7 +41,7 @@ app.get("/:id", async (req, res) => {
 });
 
 // Route to update a category
-app.put("/:id", async (req, res) => {
+app.put("/:id", authMiddleware, async (req, res) => {
   try {
     const { name } = req.body;
     const post = await Category.update(
@@ -52,7 +55,7 @@ app.put("/:id", async (req, res) => {
 });
 
 // Route to delete a category
-app.delete("//:id", async (req, res) => {
+app.delete("//:id", authMiddleware, async (req, res) => {
   try {
     const category = await Category.destroy({ where: { id: req.params.id } });
     res.json(category);
