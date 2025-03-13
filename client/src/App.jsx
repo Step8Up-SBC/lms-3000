@@ -6,6 +6,7 @@ import Signup from './components/Signup';
 import CourseList from './components/CourseList';
 import CourseDetails from './components/CourseDetails';
 import SubscribedCourses from './components/SubscribedCourses';
+import Footer from './components/Footer'; 
 
 import { SessionProvider } from './contexts/SessionContext';
 
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
+      <Footer />
       </SessionProvider>
     </div>
   );
