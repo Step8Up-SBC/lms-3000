@@ -1,0 +1,15 @@
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-top: 700px;
+  }
+  
+  /* Media query for smaller screens (mobile) */
+  @media (max-width: 768px) {
+    .footer {
+      margin-top: 610px;
+      position: sticky;
+    }
+  }
