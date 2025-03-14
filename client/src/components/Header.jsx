@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
+
 import { useSession } from '../contexts/SessionContext';
 
 const Header = () => {
@@ -24,7 +25,7 @@ const Header = () => {
 
   return (
     <header>
-      <h1>LMS 3000</h1>
+      <h1><img src={'/public/images/step8up_logo.png'} width={100} height={20} style={{marginRight:'5px'}}alt="My logo Image"/>LMS3000</h1>
       <nav>
         <Link to="/">All Courses</Link>
         {token ? (
